@@ -11,4 +11,4 @@ COPY . .
 
 #Publicar puerto
 EXPOSE 5000
-CMD [ "node", "Servidor.js" ]
+CMD [ "node", "index.js" ]
