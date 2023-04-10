@@ -18,7 +18,7 @@ let Modales = document.getElementById('Modales');
 for (let i=0; i < imgBosques.length ; i++){ 
     Galeria.insertAdjacentHTML('beforeend', 
     `  
-    <a href="#!" class="col-lg-4" data-bs-toggle="modal" data-bs-target="#imagen${i}" >
+    <a href="#!" class="unitimg" data-bs-toggle="modal" data-bs-target="#imagen${i}" >
     <div class="contenedorImg">
       <img class="card-img-top" src="${imgBosques[i]}" alt="Card image cap" ">
       </div>
@@ -41,7 +41,7 @@ for (let i=0; i < imgBosques.length ; i++){
 
 
 
-      <div class="card" style="width:end;">
+      <div class="card modal-element" style="width:end;">
         <img src="${imgBosques[i]}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${titulos[i]}</h5>

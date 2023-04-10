@@ -1,0 +1,52 @@
+.Galeria img{
+    margin: 10px;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+  }
+  
+  .Galeria img:hover{
+      opacity: 90%;
+     
+  
+  }
+
+  .card img{
+    height: 300px;
+  }
+  
+  #Galeria{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .unitimg{
+
+    margin: 10px;
+    width: 300px;
+  }
+
+  .modal-element{
+    scale: 1;
+  }
+
+
+  @media screen and (max-width:600px) {
+    .Galeria img{
+      border-radius: 20PX;
+      height: 100px;
+      width: 150px;
+    }
+
+    .unitimg{
+      width: auto;
+      padding: 0;
+    }
+    .modal-element{
+      scale: 2;
+    }
+    body{
+      scale: 2  ;
+    }
+
+  }

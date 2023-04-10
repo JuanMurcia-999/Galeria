@@ -62,7 +62,7 @@ for (let i=1; i < Urls.length ; i++){
 for (let i=0; i < Urls.length ; i++){ 
     Galeria.insertAdjacentHTML('beforeend', 
     `  
-    <div class="col-lg-4">
+    <div class="unitimg">
     <img class="card-img-top" src="${Urls[i]}" alt="Card image cap">
     </div>  
     `

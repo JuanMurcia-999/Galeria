@@ -1,0 +1,59 @@
+.carrucel-content{
+    background-image: url("https://images4.alphacoders.com/932/thumbbig-932271.webp");
+    width: end;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+  }
+  
+  .Galeria img{
+    margin: 10px;
+    border-radius: 20px;
+    height: 250px;
+  }
+  .Galeria img:hover{
+    scale: 1.1;
+  }
+  
+  #carouselExampleFade,img{
+  width: 900px;
+  height: 500px;
+  }
+  
+  body{
+    background-color: #A9A99C;
+   
+  }
+  h5{
+    background-color: rgba(231, 218, 202, 0.445);
+    font-size:xx-large;
+    color: black;
+    
+    
+  }
+  #Galeria{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .unitimg{
+    margin: 10px;
+    width: 300px;
+  }
+
+  @media screen and (max-width:600px) {
+   
+    .carrucel-content{height: 300px;}
+    
+    #carouselExampleFade,img{width: 80%;height: 300px;}
+    .Galeria img{
+      border-radius: 20PX;
+      height: 100px;
+      width: 150px;
+    }
+
+    .unitimg{
+      width: auto;
+      padding: 0;
+    }
+  }
